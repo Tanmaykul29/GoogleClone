@@ -1,0 +1,134 @@
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 200px;
+}
+h1 .blue {
+
+    text-align: center;
+    color: #4285f4;
+}
+h2 .lb {
+    color:#3aa6ca;
+    position:relative;
+    left:870px;
+    top:-63px;
+}
+
+h1 .red {
+
+    text-align: center;
+    color: #ea4336;
+}
+h1 .yellow {
+
+    text-align: center;
+    color: #fbbd05;
+}
+h1 .green {
+
+    text-align: center;
+    color: #33a852;
+}
+
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 13px 0;
+  /* Parent selector = & */
+
+}
+input:focus {
+  outline: none;
+}
+input[type=text] {
+  /* Give input text a lighter color */
+  width: 600px;
+  border-radius: 25px;
+  color: #464646;
+  margin: 0 0 0 5px;
+  position:absolute;
+  right: 420px;
+  top: 300px;
+
+}
+input[type=submit] {
+  font-size: 14px;
+  width: 185px;
+  /* Remove border */
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
+  position:relative;
+  right:-501px;
+}
+input[type=submit]:hover {
+  /* Add box-shadow when hovering button (border adds space) */
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
+}
+svg {
+    position:relative;
+    left:380px;
+    bottom:20px;
+}
+
+svg.yes {
+    position:relative;
+    left:380px;
+    bottom:60px;
+}
+a.img {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position:relative;
+    left: 1200px;
+    top: -400px;
+}
+a.adv {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position:relative;
+    left: 1210px;
+    top: -400px;
+}
+a.advance {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position:relative;
+    left: 1210px;
+    top: -380px;
+}
+a.hom {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position:relative;
+    left: 1200px;
+    top: -380px;
+}
+.ADV {
+    height: 45px;
+    background-color: #E7e9ea;
+    position:relative;
+    top: -199px;
+}
+.box {
+    height: 45px;
+    width: 200px;
+    position:relative;
+    top: 19px;
+}
